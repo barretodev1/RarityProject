@@ -1,0 +1,45 @@
+@media (min-width: 1024px) {
+
+    .container-main .container-content {
+        display: none;
+    }
+
+    .container-main .container-pc-content {
+        max-width: 35rem;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-size: 17px;
+            font-style: normal;
+            margin-bottom: 1rem;
+        }
+    
+        h2 {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-size: 16px;
+            font-style: normal;
+        }
+    }
+
+    .container-main .container-button-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 17rem;
+        transition: 0.4s;
+        outline: none;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .container-main .container-button-contact:hover {
+        background-color: rgb(189, 190, 194);
+        transition: 0.4s;
+    }
+}
