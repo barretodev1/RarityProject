@@ -1,0 +1,25 @@
+.header {
+    max-width: 100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(4, 4, 42);
+    padding: 0.9rem;
+
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        height: 3.5rem;
+    }
+}
+
+.container-span {
+    display: none;
+}
