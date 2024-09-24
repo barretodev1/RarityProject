@@ -1,0 +1,62 @@
+.container-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 50px;
+    max-height: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgb(4, 4, 42);  
+}
+
+.container-cards-mae-pc {
+    display: none;
+}
+
+.container-title-services {
+    display: flex;
+    
+    h1 {
+        color: white;
+        font-weight: 400;
+        font-size: 28px;
+    }
+}
+
+.container-cards-mae {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.card-unico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 35vh;
+    width: 69vw;
+    border-radius: 20px;
+}
+
+.Font-icon {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.meu-h1 {
+    display: flex;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+

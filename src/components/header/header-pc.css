@@ -44,4 +44,8 @@
         transition: 0.3s;
         color: rgb(136, 145, 145);
     }
+
+    .rarity {
+        display: none;
+    }
 }

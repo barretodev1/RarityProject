@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+
+    .container-cards-mae {
+        display: none;
+    }
+
+    .container-cards-mae-pc {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 40px;
+    }
+
+    .cards {
+        width: 80vw;
+        gap: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-unico {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Font-icon {
+        font-size: 40px;
+    }
+
+    .meu-h1 {
+        display: flex;
+        font-size: 20px;
+    }
+
+}

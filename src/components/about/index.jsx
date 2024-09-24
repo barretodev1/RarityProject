@@ -8,7 +8,8 @@ export function MeuAbout() {
 
     return (
         <>
-        <div className='container-sobre'>
+        <div className='color-about'>
+        <div id='sobre' className='container-sobre'>
             <h1>SOBRE NÓS</h1>
         </div>
 
@@ -28,8 +29,7 @@ export function MeuAbout() {
                 <h2>Na Rarity, a inovação está no centro de tudo o que fazemos, sempre em busca das melhores tecnologias para atender nossos clientes. Priorizamos a qualidade em cada serviço oferecido, garantindo resultados que superam as expectativas. A transparência guia nossas relações, seja com clientes, parceiros ou colaboradores, agindo sempre com clareza e honestidade.</h2>
             </div>  
         </article>
-
-
+    
         {/* MOBILE ABOUT */}
         <article className='container-article'>
             <div className='container-icon'>
@@ -47,8 +47,7 @@ export function MeuAbout() {
                 <h2>Na Rarity, prezamos pela inovação, qualidade e transparência, sempre comprometidos em atender nossos clientes com soluções personalizadas e sustentáveis.</h2>
             </div>
         </article>
-
-
+        </div>
         </>
     )
 }

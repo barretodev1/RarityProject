@@ -1,7 +1,9 @@
 body {
     display: flex;
+}
+
+.color-about {
     background-color: rgb(217, 217, 217);
-    margin-bottom: 3rem;
 }
 
 .container-sobre {
@@ -12,9 +14,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin-top: 2.5rem;
      
     h1 {
+        margin-top: 2rem;
         font-size: 28px;
         color: black;
     }
@@ -28,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-top: 1.2rem;
 }
 
@@ -39,9 +41,8 @@ body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    gap: 0.3rem;
     color: black;
-    margin-top: 1.4rem;
+    padding: 30px;
 
     h1 {
         font-weight: 600;
