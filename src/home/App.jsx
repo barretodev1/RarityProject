@@ -4,6 +4,8 @@ import { MeuHeader } from '../components/header'
 import { MeuMain } from '../components/main'
 import { MeuAbout } from '../components/about'
 import { MeuServices } from '../components/serviço'
+import { MeuBudget } from '../components/budget'
+import { MeuContact } from '../components/contact'
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
     <MeuMain />
     <MeuAbout />
     <MeuServices />
+    <MeuBudget />
+    <MeuContact />
     </>
   )
 }
