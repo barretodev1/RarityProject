@@ -25,14 +25,14 @@ export function MeuBudget() {
           <div className="input-menor"> {/*INPUT MENOR */}
               <input placeholder="Seu telefone" type="tel"  required/>
 
-              <select className='select-service' id="servicos" name="servicos">
-                <option value="" disabled>Serviço</option>
+              <select className='select-service' id="servicos" name="servicos" required>
+                <option value="" disabled selected hidden>Serviço</option>
                 <option value="Redes">Redes</option>
                 <option value="VoiP">VoiP</option>
                 <option value="Cabeamento">Cabeamento</option>
                 <option value="Wi-Fi">Wi-Fi</option>
                 <option value="HelpDesk">Help Desk</option>
-                <option value="HelpDesk">Anti-Vírus</option>
+                <option value="AntiVirus">Anti-Vírus</option>
               </select>
           </div>
 
