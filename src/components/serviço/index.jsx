@@ -13,19 +13,6 @@ export function MeuServices() {
         AOS.init({ duration: 1000 }); // Inicializa o AOS com a duração da animação em milissegundos
       }, []);
 
-      useEffect(() => {
-        fetch('http://localhost:3000')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log(data); // Loga os dados recebidos
-            })
-            .catch(error => console.error('Erro:', error));
-    }, []);
 
     return (
         <div id='servicos' className='container-geral'>
