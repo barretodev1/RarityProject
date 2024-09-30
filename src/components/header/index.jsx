@@ -1,9 +1,6 @@
 import '../header/header.css'
 import '../header/header-pc.css'
 import Logo from '../../assets/logo.png'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
 
 export function MeuHeader() {
 
