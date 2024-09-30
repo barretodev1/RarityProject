@@ -14,7 +14,7 @@ export function MeuServices() {
       }, []);
 
       useEffect(() => {
-        fetch('https://rarity-68f03af439e2.herokuapp.com')
+        fetch('http://localhost:3000')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
